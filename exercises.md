@@ -12,3 +12,25 @@
         - for example, the last 8 bits of the instruction could represent the instruction type, for example you could use `1` to mean `OUTLOC`
         - and the first 8 bits of the instruction could represent the location in memory to output
     - run the driver, and check the outputs are ok
+5. since creating the instructions is kind of tedious, create a python script (or C++, or whatever language you like), that will take a text file with assembly code, and convert it into the hexadecimal instructions. The assembly code can look something like the following:
+```
+outloc 64
+outloc 68
+outloc 72
+outloc 76
+
+location 64:
+    abcd
+    1234
+    dead
+    beef
+```
+    - check that you can run your assembler to produce machine code, and then run your verilog simulation, to run the machine code, and the outputs look correct
+6. __registers__
+    - Modify your proc module so that it has a memory to store 32 registers, which we will denote x0 to x31.
+    - add a new instruction `LI`, which will load a number into a register
+        - for example `li x1, 123` will load the number 123 into register x1
+    - add an instruction `outr` which will print out the value of a register, eg `outr x1` will print out the value of x1
+    - create some assembly code to test these two instruction, assemble this assembly, and run it
+    - check the output looks ok
+7. 

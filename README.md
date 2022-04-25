@@ -17,6 +17,8 @@ Exercises to guide you through building your own CPU, from scratch, in verilog
      - [yosys](https://github.com/YosysHQ/yosys)
 - you'll need a text editor, or development environment. I use the following:
     - [Visual Studio Code](https://code.visualstudio.com/)
+- know at least one programming language you can use to write host-side code, such as assemblers
+    - python or C++ are both ok. I used python initially
 
 Note that *all* the above resources can be used without needing to buy licenses or similar.
 
