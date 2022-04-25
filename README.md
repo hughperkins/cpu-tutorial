@@ -8,6 +8,7 @@ Exercises to guide you through building your own CPU, from scratch, in verilog
     - one way to do this is to work your way through the questions at https://hdlbits.01xz.net/wiki/Main_Page
     - I didn't finish these, but I did many of them; you can see the ones I did personally at https://hdlbits.01xz.net/wiki/Special:VlgStats/3D7115FE8A440C29
     - note: I'm not affiliated, I just found it was quite useful for me
+    - make sure you complete the `game of life` problem, since you are going to be building tons of finite state machines, and this problem is good practice
 - to learn verilog, hdlbits isn't enough: this just provides short-term validation, practice, and dopamine-stimulation that you are in fact learning
     - one resource that is quite useful for learning is https://www.doulos.com/knowhow/verilog/ (note: I'm not affiliated, I just found it worked well for mw)
     - you can google around the web for other resources as you go
