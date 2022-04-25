@@ -19,3 +19,7 @@ Exercises to guide you through building your own CPU, from scratch, in verilog
     - [Visual Studio Code](https://code.visualstudio.com/)
 
 Note that *all* the above resources can be used without needing to buy licenses or similar.
+
+## Exercises
+
+- [exercises.md](/exercises.md)
