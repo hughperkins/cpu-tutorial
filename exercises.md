@@ -112,3 +112,5 @@ location 64:
 25. your next steps will be things like:
     - adding instruction caching, and memory caching in general
     - adding parallel instruction execution
+
+(Note: you can see my own processor at https://github.com/hughperkins/VeriGPU , which I basically wrote by doing approximately what I've outlined above :) (I did a few GPU-specific things too; but I'm making this a CPU tutorial, not a GPU tutorial; happy to extend this for GPU if interest))
